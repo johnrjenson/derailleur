@@ -22,8 +22,8 @@ module.exports = function() {
   var htmlGlob = src + '/html/**/*.html';
   var ignoreTemplatesGlob = '!'+ src + '/html/_templates/**';
 
-  process.env.BLING_TEMPLATES_PATH = '/' + src + '/html/_templates/';
-  process.env.BLING_JSON_PATH = '/' + src + '/json/';
+  process.env.HANDLEBLING_TEMPLATES_PATH = '/' + src + '/html/_templates/';
+  process.env.HANDLEBLING_JSON_PATH = '/' + src + '/json/';
   handlebars.registerHelper('$', bling);
 
   glob.sync(helpersGlob).forEach(function(path){
