@@ -1,6 +1,6 @@
 {
   "name": "derailleur",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "static page generator for handlebars",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "glob-all": "^3.0.1",
     "gray-matter": "^1.1.2",
     "handlebars": "^2.0.0",
-    "handlebling": "^1.0.3",
+    "handlebling": "^1.0.4",
     "minimist": "^1.1.0",
     "string.prototype.repeat": "^0.2.0"
   }

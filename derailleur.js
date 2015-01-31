@@ -2,7 +2,7 @@ var glob = require('glob-all');
 var fs = require('fs-extra');
 var handlebars = require('handlebars');
 var grayMatter = require('gray-matter');
-var bling = require('./bling');
+var bling = require('handlebling');
 require('string.prototype.repeat');
 
 module.exports = function() {
