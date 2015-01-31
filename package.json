@@ -1,0 +1,28 @@
+{
+  "name": "derailleur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mundizzle/derailleur"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mundizzle/derailleur/issues"
+  },
+  "homepage": "https://github.com/mundizzle/derailleur",
+  "dependencies": {
+    "fs-extra": "^0.14.0",
+    "glob-all": "^3.0.1",
+    "gray-matter": "^1.1.2",
+    "handlebars": "^2.0.0",
+    "handlebling": "^1.0.3",
+    "minimist": "^1.1.0",
+    "string.prototype.repeat": "^0.2.0"
+  }
+}
