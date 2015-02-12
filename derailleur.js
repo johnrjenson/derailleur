@@ -47,7 +47,7 @@ module.exports = function() {
 
     var template = handlebars.compile(page.content);
     var html = template(page.data);
-    fs.outputFileSync(dest, html);
+    fs.outputFileSync(dest.replace('.' + ext, '.html'), html);
 
   });
 
