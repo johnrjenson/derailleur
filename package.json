@@ -1,6 +1,6 @@
 {
   "name": "derailleur",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "static page generator for handlebars",
   "main": "index.js",
   "scripts": {
