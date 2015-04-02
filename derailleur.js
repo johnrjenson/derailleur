@@ -5,15 +5,16 @@ var grayMatter = require('gray-matter');
 var bling = require('handlebling');
 require('string.prototype.repeat');
 
-module.exports = function() {
+module.exports = function(options) {
 
   'use strict';
 
   var args = require('minimist')(process.argv.slice(2));
 
-  var src = args.src;
-  var dest = args.dest;
-  var ext = args.ext || 'html';
+  options = options ? options : {};
+  var src = options.src || args.src;
+  var dest = options.dest || args.dest;
+  var ext = options.ext || args.ext || 'html';
 
   var htmlPath = src + '/html/';
   var destPath = dest + '/html/';
